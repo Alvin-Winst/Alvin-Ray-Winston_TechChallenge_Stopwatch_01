@@ -1,0 +1,47 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#stopwatch{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+
+h1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#buttons{
+    margin-left: 31%;
+}
+
+button{
+    font-family: monospace;
+    font-size: 175%;
+    font-weight: 550;
+    width: 14%;
+    margin-top: 2%;
+    margin-right: 2%;
+    color: white;
+    border-color: transparent;
+}
+
+#pause{
+    background-color: blue;
+}
+
+#start{
+    background-color: green;
+}
+
+#reset{
+    background-color: darkred;
+}
+
+#flag{
+    background-color: orangered;
+    width: 48%;
+    margin-top: 2%;
+}
